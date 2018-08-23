@@ -26,8 +26,8 @@
 
 <script>
 import {API} from '@/common/api';
-import weatherSummary from '@/components/WeatherSummary';
-import weatherData from '@/components/WeatherData';
+import weatherSummary from '@/components/weatherSummary';
+import weatherData from '@/components/weatherData';
 
 export default {
   name: 'CurrentWeather',
@@ -52,8 +52,8 @@ export default {
     });
   },
 components: {
-  'weather-summary': WeatherSummary,
-    'weather-data': WeatherData
+  'weather-summary': weatherSummary,
+    'weather-data': weatherData
 }
 }
 </script>
